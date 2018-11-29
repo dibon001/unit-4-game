@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Crystal Collector Game</title>
+    <link rel="stylesheet" type="text/css" media="screen" href="./assets/css/reset.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="./assets/css/style.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+        crossorigin="anonymous">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+
+    <script type="text/javascript" src="./assets/js/game.js"></script>
+
+</head>
+
+<body>
+<div class="container-fluid">
+    <div class="jumbotron jumbotron-fluid">
+        <div class="container">
+            <h1 class="display-4">Crystals Collector</h1>
+            <p class="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
+        </div>
+    </div>
+    <div class="card">
+            <div class="card-header">
+              Instructions
+            </div>
+            <div class="card-body">
+                        <p>
+                            You will be given a random number at the start of the game.
+                        </p>
+                        <p>
+                            There are four crystals below. By clicking on a crystal you will add a specific
+                            amount of points to your total score.
+                        </p>
+                        <p>
+                            You win the game by matching your total score to random number, you lose the game if your total score
+                            goes above the random number.
+                        </p>
+                        <p>
+                            The value of each crystal is hidden from you until you click on it.
+                        </p>
+                        <p>
+                            Each time when the game starts, the game will change the values of each crystal.
+                        </p>                
+            </div>
+          </div>
+           
+
+
+
+    <div class="row">
+        <div class="col-md-4">
+            <div class ="score-box">
+
+            </div>
+        </div>
+        <div class="col-md-2">
+            <div class = "win-lose">
+                       
+                
+            </div>
+        </div>
+    </div>
+
+    <div class="row"> <!--Storing the four pics of diamonds-->
+        <div class="col-md-2">
+            <img src="https://cdn.leibish.com/media/gemstones/thumb_1280/gemstone-172548-ruby-pear-red-cf763.jpg" alt="..." class="img-thumbnail">
+        </div>
+        <div class="col-md-2">
+                <img src="https://us.123rf.com/450wm/pixelliebe/pixelliebe1503/pixelliebe150300187/39036811-isolated-blue-diamond.jpg?ver=6" alt="..." class="img-thumbnail">
+        </div>
+        <div class="col-md-2">
+                <img src="https://www.naturallycolored.com/images/colored-diamonds/Fancy-Deep-Brown-Orange-diamond-1351.jpg" alt="..." class="img-thumbnail">
+        </div>
+        <div class="col-md-2">
+            <img id="click-me" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQRp23kYrAxEMs3_V11mo0Y02ClMmt6046g77WwbF8ki-NJ4VkSjQ" alt="..." class="img-thumbnail">
+        </div>
+
+    </div>
+ 
+    <div class ="ts-text">
+    <p>Your total score is: </p>
+    </div>
+    <div class ="total-score">
+
+    </div>
+ 
+
+</body>
+
+</html>

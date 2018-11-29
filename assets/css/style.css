@@ -1,0 +1,39 @@
+body
+{
+    background-color: blue;
+}
+.score-box
+{
+    height: 200px;
+    width: 400px;
+    background-color: orange;
+    padding: 20px;
+    margin: 20px;
+}
+
+.win-lose
+{
+    height: 200px;
+    width: 150px;
+    background-color: darkred;
+    padding: 20px;
+    margin: 20px 20px 20px 5px;
+}
+
+.ts-text
+{
+    height: 25px;
+    width: 150px;
+    background-color: green;
+    color: white;
+}
+
+.total-score
+{
+    margin-top: 10px;
+    padding-top: 10px;
+    width: 150px;
+    height: 100px;
+    background-color: cyan;
+
+}
